@@ -15,7 +15,7 @@ words_lst = None
 def flip_card():
     global rand_word_dict, timer
     canvas.itemconfig(card_img, image=card_back_photo)
-    canvas.itemconfig(language_text, text="English", fill="white")
+    canvas.itemconfig(language_text, text="English", fill="white") 
     canvas.itemconfig(word_text, text=f"{rand_word_dict['English']}", fill="white")
 
 # --------------------------- FLASH CARDS ------------------------------ #
